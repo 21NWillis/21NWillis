@@ -9,7 +9,7 @@ I focus on the hardware-software boundary, specifically focusing on optimizing a
 A zero-dependency C++/CUDA inference engine for Large Language Models (Llama 2 and 3).
 
 * **From-Scratch Architecture:** Built without PyTorch or TensorFlow to ensure total control over tensor operations and memory management.
-* **Performance Optimization:** Saturates hardware bandwidth using **Warp-level reductions**, **Vectorized memory access**, and **Dynamic shared memory**.
+* **Performance Optimization:** Saturates hardware bandwidth using **Warp-level reductions**, **Vectorized memory access**, and **Dynamic shared memory**. Achieved 17.6x speedup over basic CPU implementation (RTX 3070).
 * **Status:** Currently implementing **Int4 Quantization**.
 
 ---
@@ -33,3 +33,5 @@ A zero-dependency C++/CUDA inference engine for Large Language Models (Llama 2 a
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nathaniel-willis-317052279/)
 [![Twitter/X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/NwillisML)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:nlwillis@gmail.com)
+
+![Nate's Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=21NWillis&theme=dracula&hide_border=true)
