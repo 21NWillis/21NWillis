@@ -9,7 +9,7 @@ I focus on the hardware-software boundary, specifically focusing on optimizing a
 A zero-dependency C++/CUDA inference engine for Large Language Models (Llama 2 and 3).
 
 * **From-Scratch Architecture:** Built without PyTorch or TensorFlow to ensure total control over tensor operations and memory management.
-* **Performance Optimization:** Saturates hardware bandwidth using **Warp-level reductions**, **Vectorized memory access**, and **Dynamic shared memory**. Achieved 17.6x speedup over basic CPU implementation (RTX 3070).
+* **Performance Optimization:** Saturates hardware bandwidth using **Warp-level reductions**, **Vectorized memory access**, **A Fused Sampling Kernel**, **HFMA2 Instrinsics**, and **Dynamic shared memory**. Achieved 23x speedup over basic CPU implementation and 2.3x speedup over basic Llama3 inference (RTX 3070).
 * **Status:** Currently implementing **Int4 Quantization**.
 
 ---
