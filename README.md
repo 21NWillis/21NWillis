@@ -26,6 +26,7 @@ A zero-dependency C++/CUDA inference engine for Large Language Models (Llama 2 a
 ## Currently Exploring
 * **Fused Kernels:** Fusing multiple kernels into a single kernel launch to reduce launch overhead and keep data in GPU registers rather than global VRAM.
 * **Quantization:** Sub-8-bit weight packing and kernel fusion.
+* **Tiled Shared Memory Access** 
 
 ---
 
